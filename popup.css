@@ -1,0 +1,177 @@
+.close{
+
+    object-fit: contain;
+    padding: 2%;
+    float: right;
+    /*transform: rotate(0deg);*/
+    /*border-radius: 100px;*/
+    /*background-color: rgba(203, 33, 39, 0.5);*/
+  }
+  .Rectangle {
+    width: 61%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px 0 rgba(50, 50, 93, 0.1);
+    background-color: #ffffff;
+    border: solid 1px #4fa4ce;
+    margin-left: 17%;
+    margin-top: 6.4%;
+    margin-bottom: 10%
+  }
+  
+  .header {
+    /*width: 369px;*/
+    height: 37px;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-top: 9%;
+  }
+  
+  .sub_header {
+    /*width: 503px;*/
+    height: 22px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .col_title{
+    /*width: 278px;*/
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4fa4ce;
+  }
+  
+  
+  .set_range {
+    width: 34px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4fa4ce;
+  }
+  
+  input[type=range] {
+      -webkit-appearance: none;
+      background-color: #4fa4ce;
+      width: 85%;
+      height:3px;
+      border: solid 1px #dddddd;
+      outline: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+       -webkit-appearance: none;
+      background-color: #4fa4ce;
+      width: 12px;
+      height: 12px;
+      border-radius: 5px;
+  }
+  .dropdown{
+      position: relative;
+  }
+  .dropdown select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    width:85%;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 0 20px 30px 10px rgba(136, 136, 136, 0.05), 0 5px 15px 0 rgba(53, 148, 205, 0.1);
+    background-color: #ffffff;
+    border: solid 1px #95c8e1;
+    text-indent: 4%;
+    background: url('https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-128.png') 96%/15% no-repeat #eee;
+  }
+  
+  .button {
+    width: 40%;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 100px;
+    background-color: #cb2127;
+    box-shadow: 0 4px 0 0 #b1191e;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5%;
+  }
+
+  /* radio buttons */
+
+  .radio{
+    -webkit-appearance: none;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: solid 1px #4fa4ce;
+    border-radius:50%;
+    outline: 0px;
+  }
+  
+  .radio:checked:after{
+    content: '';
+    background-color: #4fa4ce;
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin: 15%;
+    border-radius: 50%;
+  }
+li {
+    display: -webkit-inline-box;
+    padding-right: 8px;
+    padding-left: 0px;
+}
+
+/* column  */
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

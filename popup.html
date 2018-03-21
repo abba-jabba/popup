@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popup contact form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"> -->
+	<link href="popup.css" rel="stylesheet">
+	<script src="popup.js"></script>
+</head>
+
+<body id="body">
+	<div id="popup_form" class="Rectangle">
+		<div class="close">
+			<img src="combined-shape.png" alt="close" >
+		</div>
+		<div id="header" >
+			<h1 class="header">Persnolise Your Education</h1>
+			<h2 class="sub_header">For a learning experience tailored uniquely to your needs </h2>
+			<div class="row" style="margin-top:7%">
+				<div class="column" style="margin-left:5%;">
+					<div>
+						<p class="col_title">GENDER</p>
+						<ul>
+							<li><input type="radio" class="radio" name="myradio" checked>Male</li>
+							<li><input type="radio" class="radio" name="myradio">Female</li>
+							<li><input type="radio" class="radio" name="myradio">Other</li>
+						</ul> 
+					</div>
+					<div style="margin-top:7%">
+						<p class="col_title">GOALS</p>
+						<div class="dropdown">
+							<select >
+								
+								<option selected disabled hidden >What are your goals ?</option>
+    							<option value="1">One</option>
+    							<option value="2">Two</option>
+							</select>
+						</div>
+					</div>
+					<div style="margin-top:7%">
+						<p class="col_title">OCCUPATION</p>
+						<div class="dropdown">
+							<select class="dropdown">
+								<option selected disabled hidden>What's yor ocuupation ?</option>
+    							<option value="1">One</option>
+    							<option value="2">Two</option>
+							</select>
+						</div>
+					</div>
+					
+				</div>
+				<div class="column">
+					<p class="col_title">AGE</p>
+					<div >
+						<span class="set_range">22</span><br>
+						<input type="range" min="10" max="65" step="1">
+					</div>
+					<div style="margin-top:5%">
+						<p class="col_title">QUALIFICATION</p>
+						<div class="dropdown">	
+							<select class="dropdown">
+								<option selected disabled hidden>What's your qualification ?</option>
+    							<option value="1">One</option>
+    							<option value="2">Two</option>
+							</select>
+						</div>
+					</div>
+					<div style="margin-top:7%">
+						<p class="col_title">EMPLOYMENT</p>
+						<div class="dropdown">
+							<select >
+								<option selected disabled hidden>Are you currently working ?</option>
+    							<option value="1">One</option>
+    							<option value="2">Two</option>
+    						</select>
+    					</div>
+					</div>
+				</div>
+			</div>
+
+			<input class="button" type="button" value="FINISH">
+		</div>
+	</div>
+
+<!-- 	<h1>Click Button To Popup </h1>
+	<button id="popup" onclick="div_show()">Popup</button> -->
+</body>
+
+</html>
