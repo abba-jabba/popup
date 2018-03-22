@@ -80,9 +80,9 @@
   
   input[type=range] {
       -webkit-appearance: none;
-      background-color: #4fa4ce;
+      background-color: #dddddd;
       width: 85%;
-      height:3px;
+      height:1px;
       border: solid 1px #dddddd;
       outline: none;
   }
@@ -96,6 +96,7 @@
   }
   .dropdown{
       position: relative;
+      background: white;
   }
   .dropdown select{
     -webkit-appearance: none;
@@ -110,8 +111,10 @@
     border: solid 1px #95c8e1;
     text-indent: 4%;
     background: url('https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-128.png') 96%/15% no-repeat #eee;
+    font-family: Lato;
+    font-size: 16px;
+    color:#555555;
   }
-  
   .button {
     width: 40%;
     height: 55px;
@@ -164,9 +167,10 @@ li {
 
 .column {
     float: left;
-    width: 45%;
+    width: 42%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    margin-left: 5%;
+    /*height: 300px;  Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
