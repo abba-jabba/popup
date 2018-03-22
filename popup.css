@@ -96,7 +96,6 @@
   }
   .dropdown{
       position: relative;
-      background: white;
   }
   .dropdown select{
     -webkit-appearance: none;
@@ -108,7 +107,8 @@
     border-radius: 3px;
     box-shadow: 0 20px 30px 10px rgba(136, 136, 136, 0.05), 0 5px 15px 0 rgba(53, 148, 205, 0.1);
     background-color: #ffffff;
-    border: solid 1px #95c8e1;
+    /*border: solid 1px #95c8e1;*/
+    border: none;
     text-indent: 4%;
     background: url('https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-128.png') 96%/15% no-repeat #eee;
     font-family: Lato;
